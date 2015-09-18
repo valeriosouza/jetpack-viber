@@ -1,7 +1,7 @@
 === Viber Sharing Button for Jetpack ===
 Contributors: valeriosza, wordlab
 Donate link: http://wordlab.com.br/donate/
-Tags: Jetpack, social, sharing, share, SNS, viber, TELEGRAM, Jetpack Sharing, Button Viber, Viber Button for Jetpack Sharing, Viber Sharing Button for Jetpack
+Tags: Jetpack, social, sharing, share, SNS, viber, VIBER, Jetpack Sharing, Button Viber, Viber Button for Jetpack Sharing, Viber Sharing Button for Jetpack
 Requires at least: 3.8
 Tested up to: 4.2
 Stable tag: 1.0.0
