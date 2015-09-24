@@ -21,7 +21,7 @@ This supplies additional Jetpack sharing Viber Button for your website.
 
 = Heads up: =
 
-Read the [FAQ](https://wordpress.org/plugins/viber-jetpack-button/faq/) before use.
+Read the [FAQ](https://wordpress.org/plugins/viber-sharing-button-for-jetpack/faq/) before use.
 
 Want to help? Use the [support](https://wordpress.org/support/plugin/viber-sharing-button-for-jetpack)
 
