@@ -36,11 +36,10 @@ class jeviber_Share_Viber extends Sharing_Source {
 
 	function get_display( $post ) {
 		$locale = $this->guess_locale_from_lang( get_locale() );
-		if ( wp_is_mobile() ) {
 			if( $this->smart )
 				return sprintf(
 					'<div class="viber_button"><a href="viber://forward?text=%s:%20%s%20-%20%s?utm_source=jetpack-sharing%26utm_medium=viber%26utm_campaign=mobile" class="share-viber %s" title="%s"></a></div>',
-					__('Look this','jetpack-viber'),
+					__('Look at this','jetpack-viber'),
 					rawurlencode( $this->get_share_title( $post->ID ) ),
 					rawurlencode( $this->get_share_url( $post->ID ) ),
 					esc_attr( $locale ),
@@ -48,7 +47,6 @@ class jeviber_Share_Viber extends Sharing_Source {
 				);
 			else
 				return $this->get_link( get_permalink( $post->ID ), _x( 'Viber', 'share to', 'jetpack-viber' ), __( 'Click to share on Viber', 'jetpack-viber' ), 'share=viber' );
-		}
 	}
 
 	function display_header() {
@@ -67,7 +65,7 @@ class jeviber_Share_Viber extends Sharing_Source {
 		), $this->get_share_url( $post->ID ) );
 
 		$params = array(
-		    'text' => __( 'Look this', 'jetpack-viber' ) . ': ' . $this->get_share_title( $post->ID ) .' - ' . $url,
+		    'text' => __( 'Look at this', 'jetpack-viber' ) . ': ' . $this->get_share_title( $post->ID ) .' - ' . $url,
 		);
 
 		$viber_url = 'viber://forward?' . http_build_query( $params );
