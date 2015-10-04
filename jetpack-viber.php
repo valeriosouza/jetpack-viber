@@ -120,7 +120,7 @@ class Jetpack_Viber_Pack {
 		if( plugin_basename( jeviber__PLUGIN_FILE ) === $file ) {
 			$links[] = sprintf(
 				'<a href="%s" style="color:#ffa100;font-weight:bold;">%s</a>',
-				esc_url('http://wordlab.com.br/donate/?utm_source=plugin&utm_medium=donate&utm_campaign=jetpack-whatsapp'),
+				esc_url('http://wordlab.com.br/donate/?utm_source=plugin&utm_medium=donate&utm_campaign=jetpack-viber'),
 				__( 'Donate', 'jetpack-viber' )
 			);
 		}
