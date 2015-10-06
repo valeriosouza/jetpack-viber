@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jetpack Viber\n"
-"POT-Creation-Date: 2015-10-03 14:35-0300\n"
-"PO-Revision-Date: 2015-10-03 14:35-0300\n"
+"POT-Creation-Date: 2015-10-05 21:20-0300\n"
+"PO-Revision-Date: 2015-10-05 21:20-0300\n"
 "Last-Translator: Valério Souza <eu@valeriosouza.com.br>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -34,18 +34,24 @@ msgid ""
 "plugin to work sharing with Viber."
 msgstr ""
 
-#: ../jetpack-viber.php:124
+#: ../jetpack-viber.php:131
 msgid "Donate"
 msgstr ""
 
-#: ../jetpack-viber.php:134
+#: ../jetpack-viber.php:141
 msgid "More add-ons"
 msgstr ""
 
-#: ../jetpack-viber.php:148
-#, php-format
+#: ../jetpack-viber.php:155
 msgid ""
 "Like the plugin to share the Viber Sharing Button for Jetpack? Develop free "
-"plugins takes work! Be my boss and make a <a target=\"_blank\" href=\"%1$s"
-"\">donation of any amount</a>. | <a href=\"%2$s\">Hide Notice</a>"
+"plugins takes work! Be my boss and make a "
+msgstr ""
+
+#: ../jetpack-viber.php:155
+msgid "donation of any amount"
+msgstr ""
+
+#: ../jetpack-viber.php:155
+msgid "This plugin does not deserve a donation"
 msgstr ""
