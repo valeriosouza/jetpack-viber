@@ -152,7 +152,7 @@ class Jetpack_Viber_Pack {
 	        /* Check that the user hasn't already clicked to ignore the message */
 		if ( ! get_user_meta($user_id, 'viber_ignore_notice') ) {
 	        echo '<div class="updated"><p>';
-	        printf('%s<a target="_blank" href="%s">%s</a>. | <a href="%s">%s</a>',__('Like the plugin to share the Viber Sharing Button for Jetpack? Develop free plugins takes work! Be my boss and make a ', 'jetpack-viber'), 'http://wordlab.com.br/donate/?utm_source=plugin&utm_medium=donate-notice&utm_campaign=jetpack-viber', __('donation of any amount', 'jetpack-viber'), '?viber_nag_ignore=0',__('This plugin does not deserve a donation', 'jetpack-viber'));
+	        printf('%s<a target="_blank" href="%s">%s</a>. | <a href="%s">%s</a>',__('Like the plugin Viber Sharing Button for Jetpack? Develop free plugins takes work! Be my boss and make a ', 'jetpack-viber'), 'http://wordlab.com.br/donate/?utm_source=plugin&utm_medium=donate-notice&utm_campaign=jetpack-viber', __('donation of any amount', 'jetpack-viber'), '?viber_nag_ignore=0',__('This plugin does not deserve a donation', 'jetpack-viber'));
 	        echo "</p></div>";
 		}
 	}
