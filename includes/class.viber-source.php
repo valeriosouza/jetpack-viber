@@ -38,10 +38,11 @@ class jeviber_Share_Viber extends Sharing_Source {
 		$locale = $this->guess_locale_from_lang( get_locale() );
 			if( $this->smart )
 				return sprintf(
-					'<div class="viber_button"><a href="viber://forward?text=%s:%20%s%20-%20%s?utm_source=jetpack-sharing%26utm_medium=viber%26utm_campaign=mobile" class="share-viber %s" title="%s"></a></div>',
+					'<div class="viber_button"><a href="viber://forward?text=%s:%20%s%20-%20%s%s" class="share-viber %s" title="%s"></a></div>',
 					__('Look at this','jetpack-viber'),
 					rawurlencode( $this->get_share_title( $post->ID ) ),
 					rawurlencode( $this->get_share_url( $post->ID ) ),
+					rawurlencode( '?utm_source=jetpack-sharing&utm_medium=viber&utm_campaign=mobile' ),
 					esc_attr( $locale ),
 					esc_attr__( 'Viber it!', 'jetpack-viber' )
 				);
