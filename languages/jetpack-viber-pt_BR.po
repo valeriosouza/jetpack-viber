@@ -1,11 +1,11 @@
-#
+# 
 # Translators:
 # Valério Souza <valeriosza@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Viber Sharing Button for Jetpack\n"
-"POT-Creation-Date: 2015-10-03 14:35-0300\n"
-"PO-Revision-Date: 2015-10-05 21:18-0300\n"
+"POT-Creation-Date: 2015-10-05 21:35-0300\n"
+"PO-Revision-Date: 2015-10-06 00:43+0000\n"
 "Last-Translator: Valério Souza <valeriosza@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/valeriosouza/viber-sharing-button-for-jetpack/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -32,18 +32,29 @@ msgid "Click to share on Viber"
 msgstr "Clique para compartilhar no Viber"
 
 #: ../jetpack-viber.php:43
-msgid "Jetpack has NOT been activated! You need to install and activate the Jetpack plugin to work sharing with Viber."
+msgid ""
+"Jetpack has NOT been activated! You need to install and activate the Jetpack"
+" plugin to work sharing with Viber."
 msgstr "Jetpack não está ativado! Você deve instalar e ativar o plugin Jetpack para conseguir usar o compartilhamento do Viber."
 
-#: ../jetpack-viber.php:124
+#: ../jetpack-viber.php:131
 msgid "Donate"
 msgstr "Doar"
 
-#: ../jetpack-viber.php:134
+#: ../jetpack-viber.php:141
 msgid "More add-ons"
 msgstr "Outros Add-ons"
 
-#: ../jetpack-viber.php:148
-#, php-format
-msgid "Like the plugin to share the Viber Sharing Button for Jetpack? Develop free plugins takes work! Be my boss and make a <a target=\"_blank\" href=\"%1$s\">donation of any amount</a>. | <a href=\"%2$s\">Hide Notice</a>"
-msgstr "Gostou do plugin Viber Sharing Button for Jetpack? Desenvolver plugins gratuitos dá trabalho! Seja meu chefe e <a target=\"_blank\" href=\"%1$s\">faça uma doação de qualquer valor</a>. | <a href=\"%2$s\">Esconder Aviso</a>"
+#: ../jetpack-viber.php:155
+msgid ""
+"Like the plugin Viber Sharing Button for Jetpack? Develop free plugins takes"
+" work! Be my boss and make a "
+msgstr "Gosta do plugin Viber Sharing Button para Jetpack? Desenvolver plugins gratuitos dá trabalho! Seja meu chefe e "
+
+#: ../jetpack-viber.php:155
+msgid "donation of any amount"
+msgstr "faça uma doação de qualquer valor"
+
+#: ../jetpack-viber.php:155
+msgid "This plugin does not deserve a donation"
+msgstr "Esse plugin não merece uma doação."
